@@ -96,7 +96,7 @@ font-family: 'Roboto Slab', serif; */
     display: flex;
     justify-content: center;
     margin-right: 10px;
-    /* width: 220px; */
+    width: 220px;
 }
 /* class for the input */
 .form-control{
@@ -159,6 +159,9 @@ font-family: 'Roboto Slab', serif; */
     padding: 10px;
     /* background-color: #6018DC; */
     height: 50vh;
+  }
+  .input_span{
+
   }
 
   #submit-btn{
