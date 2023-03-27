@@ -63,29 +63,31 @@ font-family: 'Roboto Slab', serif; */
     
 
 }
+.line{
+    
+    margin-left: 22%;
+    width: 60%;
+    height: 5px;
+    background-color: orangered;
+    margin-bottom: 20px;
+}
 
 .form_container{
     display: flex;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     align-items: center;
     justify-content: center;
     margin-top: 50px;
     /* background-color: black; */
 }
 
-.line{
-    
-    margin-left: 32%;
-    width: 36vw;
-    height: 5px;
-    background-color: orangered;
-    margin-bottom: 20px;
-}
+
 
 /* class for container for both the text and the input fild */
 .input{
     margin-bottom: 10px;
+    
 }
 
 /* class for the text writen brfore the input fields */
@@ -115,4 +117,53 @@ font-family: 'Roboto Slab', serif; */
     border: 2px solid black;
     border-radius: 32px;
     background-image: linear-gradient(135deg, #EE9CA7 10%, #FFDDE1 100%);
+}
+
+.result_container{
+  margin-top: 30px;
+  margin-left: 30px;
+  /* background-color: #6018DC; */
+  font-family: 'Alkatra', cursive;
+  border:2px;
+}
+.result_container h2{
+  font-weight: bolder;
+  color:chocolate;
+  font-size: 40px;
+  
+
+}
+.line-2{
+    width: 90%;
+    height: 5px;
+    background-color: orangered;
+    margin-bottom: 20px;
+}
+
+/* .footer_container{
+  background-image: linear-gradient(135deg, #f5f7fa 10%, #c3cfe2 100%);
+  height: 10vh;
+  text-align: center;
+  font-family:'Alkatra', cursive;
+  /* padding-top: 5vh; */
+  /* margin-bottom: -30px; */
+ 
+
+@media screen and (max-width:426px) {
+
+  .nav_color{
+    text-align: center;
+  }
+
+  .form_container{
+    padding: 10px;
+    /* background-color: #6018DC; */
+    height: 50vh;
+  }
+
+  #submit-btn{
+    width: 60vw;
+    height: 5vh;
+  }
+  
 }
